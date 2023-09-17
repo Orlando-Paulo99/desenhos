@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+    animation-name: mudardecor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+h1{
+    text-align: center;
+    color: #f6f930;
+    position: relative;
+    top: 20px;
+    font-size:55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#info p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    text-align:center;
+    top: -550px;
+    right: -35px;
+    font-size: 20px;
+}
+.container{
+    width: 30%;
+}
+
+img{
+    width: 340px;
+    height: 300px;
+    
+
+}
+.fotos-one{
+    display: flex;
+    grid-gap: 10px;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.fotos-two{
+    display: flex;
+    grid-gap: 10px;
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@keyframes mudardecor{
+    0%{background-color: red;}
+    50%{background-color: blue;}
+    100%{background-color: green;}
+}
