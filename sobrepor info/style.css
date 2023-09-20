@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #212529;
+ 
     animation-name: mudardecor;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -28,10 +28,25 @@ h1{
     top: -550px;
     right: -35px;
     font-size: 20px;
+   background-color:#03071e ;
+   color: #fff;
 }
 .container{
     width: 30%;
 }
+#info-fred p{
+    ffont-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    text-align:center;
+    top: -610px;
+    left: 380px;
+    font-size: 20px;
+   
+    background-color: #f6f930;
+
+}
+
 
 img{
     width: 340px;
@@ -57,7 +72,7 @@ img{
 }
 
 @keyframes mudardecor{
-    0%{background-color: red;}
-    50%{background-color: blue;}
-    100%{background-color: green;}
+    50px{background-color: #ffbe0b;}
+    50%{background-color: #00b4d8;}
+    50%{background-color: #06d6a0;}
 }
